@@ -5,6 +5,7 @@
     font-family: 'Courier New', Courier, monospace;
     color: #A87352;
     cursor: url("./Assets/cursor.png") 4 12, auto;
+    scroll-behavior: smooth;
 }
 
 html, body{
@@ -176,7 +177,7 @@ main article{
     margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(2, 45%);
-    gap: 5rem;
+    gap: 3rem;
 }
 .solution-item{
     display: flex;
@@ -188,6 +189,49 @@ main article{
     width: 25%;
     text-decoration: none;
     align-self:flex-end;
+}
+.call-to-action-form{
+    background-color: #C58B63;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.call-to-action-form div{
+    color: #96674A;
+    /* line-height: 25px; */
+    width: 50%;
+}
+form{
+    width: 40%;
+}
+form label{
+    color: #E6E2D7;
+}
+form input{
+    background-color: #E6E2D7;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 3px solid #A87352;
+    border-radius: 15px;
+    outline-color: #CEBA9E;
+    width: 100%;
+}
+form input[type=submit]{
+    background-color: #A87352;
+    color: #E6E2D7;
+}
+form input[type=submit]:hover{
+    background-color: #96674A;
+    cursor: pointer;
+}
+footer{
+    background-color: #96674A;
+    padding: 0.5rem;
+    /* color: #E6E2D7; */
+}
+footer p{
+    color: #E6E2D7;
+    text-align: center;
 }
 /* ********************** MEDIA QUERIES ********************* */
 
