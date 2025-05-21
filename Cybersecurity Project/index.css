@@ -46,7 +46,7 @@ html, body{
     font-size: 1.25rem;
     line-height: 35px;
 }
-.hero-screen-content h1{
+.hero-screen-content h1, .context-text h1, .reasons-container h1{
     text-decoration: underline;
     text-underline-offset: 10px;
     margin-bottom: 20px;
@@ -128,8 +128,11 @@ html, body{
 }
 
 main{
-    padding: 10%;
     background-color: #E6E2D7;
+}
+main article{
+    padding: 5% 10%;
+
 }
 .the-problem{
     display: flex;
@@ -137,6 +140,7 @@ main{
 }
 .context-text{
     width: 55%;
+    line-height: 30px;
 }
 .content-image{
     width: 40%;
@@ -144,6 +148,20 @@ main{
 .content-image img{
     width: 100%;
     filter: sepia(80%);
+}
+.reasons-why{
+   text-align: center;
+    background-color: #D6C09C;
+}
+.reasons-why .reasons-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.reasons-container div{
+    background-color: #E6E2D7;
+    padding: 1rem;
 }
 /* ********************** MEDIA QUERIES ********************* */
 
